@@ -57,7 +57,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <span>Giờ làm việc: {BRAND.workingHoursPlaceholder}</span>
               </p>
               <p className="text-[#1D2433]/65 dark:text-[#9BA5B8] pl-6">
-                Mạng xã hội: {BRAND.socialPlaceholder}
               </p>
             </div>
           </div>
