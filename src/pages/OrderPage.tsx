@@ -152,16 +152,7 @@ export const OrderPage: React.FC<OrderPageProps> = ({ initialTierId }) => {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* Left: Embedded Google Form */}
-          <div className="lg:col-span-8 space-y-5">
-            <div className="rounded-2xl border border-[#5B8FB9]/40 bg-[#5B8FB9]/10 dark:bg-[#7EB2DB]/12 p-5 flex items-start gap-3">
-              <Info className="w-5 h-5 text-[#5B8FB9] dark:text-[#7EB2DB] shrink-0 mt-0.5" aria-hidden="true" />
-              <div className="space-y-1 text-sm text-[#1D2433] dark:text-[#F5F4F1]">
-                <p className="font-semibold">
-                  da2ceeaa6f4cc6d8162eb4a5f64d44690c94855d
-
-            <div className="rounded-3xl border border-[#C9CDD6]/80 dark:border-[#2B354A] bg-white dark:bg-[#171E2C] p-4 sm:p-6 space-y-4">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-[#C9CDD6]/60 dark:border-[#2B354A]">
-                <div>
+         
                   <h2 className="font-display text-lg font-semibold text-[#1D2433] dark:text-[#F5F4F1]">
                     2. Biểu mẫu đăng ký đặt hàng LUMORA
                   </h2>
