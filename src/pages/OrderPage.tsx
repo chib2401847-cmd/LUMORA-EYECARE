@@ -161,8 +161,7 @@ export const OrderPage: React.FC<OrderPageProps> = ({ initialTierId }) => {
                   {activeTier.priceDisplay}), chưa thu phí trực tuyến.
                 </p>
                 <p className="text-xs sm:text-sm text-[#1D2433]/80 dark:text-[#C9CDD6] leading-relaxed">
-                  LUMORA sẽ liên hệ tư vấn tình trạng thị lực và xác nhận phiên bản cũng như mức giá
-                  cụ thể trước khi giao hàng.
+                  
 
             <div className="rounded-3xl border border-[#C9CDD6]/80 dark:border-[#2B354A] bg-white dark:bg-[#171E2C] p-4 sm:p-6 space-y-4">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-[#C9CDD6]/60 dark:border-[#2B354A]">
