@@ -234,8 +234,8 @@ export const PROMOTIONS: PromotionItem[] = [
     subtitle: 'Áp dụng cho cả 3 phiên bản Standard, Plus và Pro',
     description:
       'Hỗ trợ chi phí khởi đầu cho học sinh, sinh viên và người trẻ bắt đầu lộ trình kiểm soát cận thị cùng LUMORA.',
-    discountPlaceholder: '[Giảm 10% cho khách hàng mua sản phẩm lần đầu]',
-    conditionPlaceholder: '[Áp dụng cho khách hàng lần đầu mua sản phẩm LUMORA Ortho-K]',
+    discountPlaceholder: 'Giảm 10% cho khách hàng mua sản phẩm lần đầu',
+    conditionPlaceholder: 'Áp dụng cho khách hàng lần đầu mua sản phẩm LUMORA Ortho-K',
     ctaLabel: 'Đặt hàng để nhận ưu đãi',
     image: IMAGES.heroBox,
     imageAlt: 'Ưu đãi dành cho khách hàng đăng ký LUMORA Ortho-K lần đầu',
@@ -246,8 +246,8 @@ export const PROMOTIONS: PromotionItem[] = [
     subtitle: 'Áp dụng khi đặt hàng trực tuyến hoặc qua tư vấn viên',
     description:
       'Khách hàng có mã voucher từ các chương trình học đường hoặc sự kiện tại Cần Thơ được áp dụng khấu trừ khi xác nhận đơn.',
-    discountPlaceholder: '[Giảm 10% giá trị sản phẩm]',
-    conditionPlaceholder: '[Áp dụng cho khách hàng là học sinh, sinh viên. Xuất trình thẻ học sinh, sinh viên khi đăng ký.]',
+    discountPlaceholder: 'Giảm 10% giá trị sản phẩm',
+    conditionPlaceholder: 'Áp dụng cho khách hàng là học sinh, sinh viên. Xuất trình thẻ học sinh, sinh viên khi đăng ký',
     ctaLabel: 'Đặt hàng để nhận ưu đãi',
     image: IMAGES.campusOutdoor,
     imageAlt: 'Sinh viên năng động ngoài trời cùng ưu đãi học đường LUMORA',
@@ -258,8 +258,8 @@ export const PROMOTIONS: PromotionItem[] = [
     subtitle: 'Đồng hành dài lâu trong suốt quá trình theo dõi thị lực',
     description:
       'Mỗi lần tái khám đúng hẹn, cập nhật nhật ký trên ứng dụng hoặc mua dung dịch/phụ kiện định kỳ đều có thể tích lũy điểm quyền lợi.',
-    discountPlaceholder: '[Giảm 10% cho khách hàng tham gia chương trình tích điểm]',
-    conditionPlaceholder: '[Áp dụng theo chương trình tích điểm và điều kiện dành cho khách hàng thân thiết]',
+    discountPlaceholder: 'Giảm 10% cho khách hàng tham gia chương trình tích điểm',
+    conditionPlaceholder: 'Áp dụng theo chương trình tích điểm và điều kiện dành cho khách hàng thân thiết',
     ctaLabel: 'Đặt hàng để nhận ưu đãi',
     image: IMAGES.appMockup,
     imageAlt: 'Tích điểm và theo dõi lịch sử thị lực trên ứng dụng LUMORA',
@@ -271,7 +271,7 @@ export const PROMOTIONS: PromotionItem[] = [
     description:
       'Giúp bạn có sẵn đầy đủ dụng cụ cần thiết ngay từ đêm đầu tiên sử dụng theo hướng dẫn của chuyên viên.',
     discountPlaceholder: 'Tặng kèm 01 bộ dụng cụ vệ sinh & bảo quản lens chính hãng',
-    conditionPlaceholder: '[Áp dụng theo chương trình tích điểm và điều kiện dành cho khách hàng thân thiết]',
+    conditionPlaceholder: 'Áp dụng theo chương trình tích điểm và điều kiện dành cho khách hàng thân thiết',
     ctaLabel: 'Đặt hàng để nhận ưu đãi',
     image: IMAGES.careKit,
     imageAlt: 'Bộ dụng cụ vệ sinh và bảo quản kính áp tròng tặng kèm của LUMORA',
