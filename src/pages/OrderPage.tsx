@@ -157,10 +157,6 @@ export const OrderPage: React.FC<OrderPageProps> = ({ initialTierId }) => {
               <Info className="w-5 h-5 text-[#5B8FB9] dark:text-[#7EB2DB] shrink-0 mt-0.5" aria-hidden="true" />
               <div className="space-y-1 text-sm text-[#1D2433] dark:text-[#F5F4F1]">
                 <p className="font-semibold">
-                  Lưu ý quan trọng: Đây là đăng ký đặt hàng ({activeTier.name} ·{' '}
-                  {activeTier.priceDisplay}), chưa thu phí trực tuyến.
-                </p>
-                <p className="text-xs sm:text-sm text-[#1D2433]/80 dark:text-[#C9CDD6] leading-relaxed">
                   
 
             <div className="rounded-3xl border border-[#C9CDD6]/80 dark:border-[#2B354A] bg-white dark:bg-[#171E2C] p-4 sm:p-6 space-y-4">
