@@ -150,17 +150,7 @@ export const OrderPage: React.FC<OrderPageProps> = ({ initialTierId }) => {
 
       {/* Form nhúng + Thẻ tư vấn bên cạnh */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          {/* Left: Embedded Google Form */}
-         
-                  <h2 className="font-display text-lg font-semibold text-[#1D2433] dark:text-[#F5F4F1]">
-                    2. Biểu mẫu đăng ký đặt hàng LUMORA
-                  </h2>
-                  <p className="text-xs text-[#1D2433]/65 dark:text-[#9BA5B8]">
-                    Nếu biểu mẫu bên dưới không hiển thị trên trình duyệt của bạn, hãy bấm nút mở
-                    tab mới.
-                  </p>
-                </div>
+       
 
                 <a
                   href={BRAND.orderFormUrl}
