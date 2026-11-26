@@ -189,9 +189,7 @@ export const ProductPage: React.FC<ProductPageProps> = ({ onNavigate }) => {
           <h2 className="font-display text-2xl sm:text-3xl font-semibold text-[#1D2433] dark:text-[#F5F4F1]">
             So sánh 3 phiên bản LUMORA Ortho-K
           </h2>
-          <p className="text-sm text-[#1D2433]/75 dark:text-[#C9CDD6]">
-            {BRAND.packageConfirmNote}
-          </p>
+          
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
