@@ -149,30 +149,31 @@ export const OrderPage: React.FC<OrderPageProps> = ({ initialTierId }) => {
       </section>
 
       {/* Form nhúng + Thẻ tư vấn bên cạnh */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-       
+       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          {/* Left: Form đặt hàng */}
+          <div className="lg:col-span-8 space-y-6">
+            <div className="flex items-center justify-end">
+              <a
+                href={BRAND.orderFormUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#1D2433] text-[#F5F4F1] dark:bg-[#F5F4F1] dark:text-[#1D2433] text-xs font-semibold hover:opacity-90 transition-opacity whitespace-nowrap shrink-0"
+              >
+                <span>Mở form đặt hàng</span>
+                <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
+              </a>
+            </div>
 
-                <a
-                  href={BRAND.orderFormUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#1D2433] text-[#F5F4F1] dark:bg-[#F5F4F1] dark:text-[#1D2433] text-xs font-semibold hover:opacity-90 transition-opacity whitespace-nowrap shrink-0"
-                >
-                  <span>Mở form đặt hàng</span>
-                  <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
-                </a>
-              </div>
-
-              <div className="w-full overflow-hidden rounded-2xl border border-[#C9CDD6]/50 dark:border-[#2B354A] bg-[#F5F4F1]">
-                <iframe
-                  title="Form đăng ký đặt hàng LUMORA Eyecare"
-                  src={BRAND.orderFormUrl}
-                  className="w-full h-[680px] border-0"
-                  loading="lazy"
-                >
-                  Đang tải biểu mẫu đặt hàng...
-                </iframe>
-              </div>
+            <div className="w-full overflow-hidden rounded-2xl border border-[#C9CDD6]/50 dark:border-[#2B354A] bg-[#F5F4F1]">
+              <iframe
+                title="Form đăng ký đặt hàng LUMORA Eyecare"
+                src={BRAND.orderFormUrl}
+                className="w-full h-[680px] border-0"
+                loading="lazy"
+              >
+                Đang tải biểu mẫu đặt hàng...
+              </iframe>
             </div>
           </div>
 
