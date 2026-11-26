@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, Clock, Send, CheckCircle2, Share2 } from 'lucide-react';
+import { MapPin, Clock, Send, CheckCircle2 } from 'lucide-react';
 import { BRAND, CONTACT } from '../data/lumoraData';
 import { WaveBackdrop } from '../components/WaveBackdrop';
 import { ConsultationCard } from '../components/ConsultationCard';
@@ -63,6 +63,7 @@ export const ContactPage: React.FC = () => {
                 </div>
               </div>
 
+             
               <div className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-[#5B8FB9] shrink-0 mt-0.5" aria-hidden="true" />
                 <div>
@@ -70,8 +71,8 @@ export const ContactPage: React.FC = () => {
                   <p>{BRAND.workingHoursPlaceholder}</p>
                 </div>
               </div>
-
-              
+            </div>
+          </div>
 
           <div className="overflow-hidden rounded-3xl border border-[#C9CDD6]/80 dark:border-[#2B354A] bg-white dark:bg-[#171E2C]">
             <iframe
@@ -82,6 +83,7 @@ export const ContactPage: React.FC = () => {
             />
           </div>
         </div>
+
 
         {/* Right: Simple Inquiry Form */}
         <div className="lg:col-span-6">
